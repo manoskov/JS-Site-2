@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.light-theme {
+    color: black;
+    background-color: white;
+}
+
+.dark-theme {
+    color: white;
+    background-color: black;
+}
+
+
+.light-theme h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: beige;
+    border: 1px solid tan;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+padding: 10px;
+font-size: 20px;
+}
+
+
+
+button:hover {
+
+}
+
+
+#text {
+    width: 90%;
+    margin: 2% 5%;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.5;
+    columns: 1;
+}
+
+#random-generator {
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: beige;
+    border: 1px solid tan;
+    width: 50%;
+    line-height: 2;
+}

@@ -55,7 +55,7 @@ threeColumns.onclick = threeFunc;
 
 
 let randomFact = () => {
-    const factsList = ['I am 6 feet tall.', 'I have a ph.d. in history.', 'I worked as a translator.', 'I was born in the USSR.', 'I was a blogger for 2 years.', 'I want to move to Germany.'];
+    const factsList = ['Babies have around 100 more bones than adults.', 'The Eiffel Tower can be 15 cm taller during the summer.', '20% of oxygen on Earth is produced by the Amazon rainforest.', 'Hawaii moves 7.5cm closer to Alaska every year.', 'Polar bears are nearly undetectable by infrared cameras', 'Stomach acid is strong enough to dissolve stainless steel.', 'Venus is the only planet to spin clockwise.'];
     let randomNumber = Math.floor(Math.random() * factsList.length);
     number.innerHTML = randomNumber;
     return factsList[randomNumber];

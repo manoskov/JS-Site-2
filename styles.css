@@ -8,6 +8,19 @@
     background-color: black;
 }
 
+/* Fonts */
+
+
+h1, h2, h3 {
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Header with theme toggle button */
+
 header {
     display:flex;
     justify-content: center;
@@ -22,7 +35,7 @@ header {
     border-bottom: solid 1px whitesmoke;
 }
 
-.light-theme h1 {
+h1 {
     text-align: center;
     margin-bottom: 10px;
     padding: 10px;
@@ -34,16 +47,10 @@ header {
 .dark-theme h1 {
     color: white;
     background-color:darkslategray;
-    text-align: center;
-    margin-bottom: 10px;
-    padding: 10px;
     border: 1px solid darkgray;
-    width: 100%;
 }
 
-.theme-button {
-    align-self: center;
-}
+/* Buttons */
 
 .buttons {
     text-align: center;
@@ -52,20 +59,16 @@ header {
 button {
 padding: 10px;
 font-size: 20px;
-font-family: 'Courier New', Courier, monospace;
 border-radius: 5px;
+font-family: Arial, sans-serif;
+margin-bottom: 0.5em;
 }
 
 button:hover {
 background-color: bisque;
 }
 
-
 .dark-theme button {
-    padding: 10px;
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    border-radius: 5px;
     color: white;
     background-color: black;
     border: solid 2px white;
@@ -76,17 +79,35 @@ background-color: bisque;
 
 }
 
+.theme-button {
+    background-color: beige;
+}
 
+.theme-button:hover {
+    color: whitesmoke;
+    background-color: black;
+}
+
+/* Text Section*/
 
 #text {
     width: 90%;
     margin: 2% 5%;
-    font-family: Arial, sans-serif;
-    font-size: 20px;
+    font-size: 1.2em;
     text-align: justify;
     line-height: 1.5;
     columns: 1;
 }
+
+#comment-to-text {
+    text-align: right;
+    font-size: 0.9em;
+    width: 90%;
+    margin-bottom: 2em;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+
+/* Random Facts Section */
 
 #random-generator {
     text-align: center;
@@ -94,18 +115,13 @@ background-color: bisque;
     padding: 10px;
     background-color: beige;
     border: 1px solid tan;
-    width: 50%;
+    max-width: 50em;
     line-height: 2;
 }
 
 .dark-theme #random-generator {
-    text-align: center;
-    margin: 10px auto;
-    padding: 10px;
     background-color: darkslategray;
     border: 1px solid darkgray;
-    width: 50%;
-    line-height: 2;
 }
 
 /* Photo Gallery */
@@ -130,4 +146,19 @@ background-color: bisque;
     top: 0px;
     margin: 5px;
 
+}
+
+/* Footer */
+
+footer {
+    padding: 0.5em;
+    border-top: solid 1px tan;
+    background-color: beige;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.dark-theme footer {
+    border-top: solid 1px whitesmoke;
+    background-color:darkslategray;
 }

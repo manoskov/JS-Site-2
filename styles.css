@@ -4,7 +4,7 @@
 }
 
 .dark-theme {
-    color: white;
+    color: whitesmoke;
     background-color: black;
 }
 
@@ -19,7 +19,7 @@ header {
 }
 
 .dark-theme header {
-    border-bottom: solid 1px white;
+    border-bottom: solid 1px whitesmoke;
 }
 
 .light-theme h1 {
@@ -106,4 +106,28 @@ background-color: bisque;
     border: 1px solid darkgray;
     width: 50%;
     line-height: 2;
+}
+
+/* Photo Gallery */
+
+.photo {
+    text-align: center;
+    border-top: solid 1px black;
+    padding: 0.5em 0;
+}
+
+.dark-theme .photo {
+    border-top: solid 1px whitesmoke;
+}
+
+
+.galleryimage {
+}
+
+.photo button {
+    width: 180px;
+    height: 80px;
+    top: 0px;
+    margin: 5px;
+
 }
